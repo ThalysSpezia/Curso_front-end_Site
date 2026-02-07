@@ -16,15 +16,16 @@
                 <li><a href="#Sobre mim">Sobre mim</a></li>
                 <li><a href="#Projetos">Projetos</a></li>
                 <li><a href="#Contato">Contato</a></li>
-                <li><a href="https://br.linkedin.com/in/thalys-andr%C3%A9-spezia-90340b154" target="_blank">Linkedin</a></li>
+                <li><a href="https://br.linkedin.com/in/thalys-andr%C3%A9-spezia-90340b154" target="_blank">Linkedin</a>
+                </li>
             </ul>
         </nav>
     </header>
     <section id="Sobre mim">
         <h2>Sobre mim</h2>
-        
-        <img src="https://media.licdn.com/dms/image/v2/C4D03AQGo5ijuBKFsJw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1592614108216?e=2147483647&v=beta&t=MAp6t_-1HI6f09rKjC3Bo0i186mXcOAWql_EgCaWhSI" 
-        alt="Imagem do perfil" title="Título da imagem">
+
+        <img src="https://media.licdn.com/dms/image/v2/C4D03AQGo5ijuBKFsJw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1592614108216?e=2147483647&v=beta&t=MAp6t_-1HI6f09rKjC3Bo0i186mXcOAWql_EgCaWhSI"
+            alt="Imagem do perfil" title="Título da imagem">
 
         <article>
             <p>
@@ -75,7 +76,37 @@
                 Telefone: <a href="tel+55...">(47)99...</a>
             </address>
 
+            <form action="">
 
+                <label for="Nome">Nome: </label>
+                <input type="text" id="Nome" name="Nome" required> <br>
+
+                <label for="Email">Email: </label>
+                <input type="email" id="email" name="email" required> <br>
+
+                <label for="Telefone">Telefone: </label>
+                <input type="tel" id="Telefone" name="Telefone"> <br>
+
+                <label for="assunto">Assunto:</label>
+                <select name="assunto" id="assunto">
+                    <option value="Orçamento">Orçamento</option>
+                    <option value="Duvida">Dúvida</option>
+                    <option value="Outro">Outro</option>
+                </select>
+                <br>
+                
+                <label for="mensagem">Mensagem:</label>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10" required></textarea>
+
+                <input type="checkbox" id="inscricao" name="inscricao">
+                <label for="inscricao">Deseja receber meu email?</label>
+
+                <br>
+
+                <input type="submit" value="Enviar mensagem">
+
+
+            </form>
 
 
         </section>
